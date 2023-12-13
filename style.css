@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(171, 221, 246);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 30vw;
+    height: 60vh;
+    border: 2px solid;
+    border-radius: 3px;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+label {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+a {
+    font-size: 15px;
+}
+
+.ball {
+    width:80px;
+    height:80px;
+    background-color: rgb(61, 250, 61);
+    border-radius: 50px;
+    border:0px;
+}
+
+#sub{
+    background-color: rgb(74, 255, 74);
+    color:white;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+}
